@@ -1,0 +1,41 @@
+.infoBox {
+    flex-grow: 1;
+    width: 33.33333%;
+    max-width: 33.333333%;
+    flex-basis: 33.333333%;
+    padding: 12px;
+    margin-right: 30px;
+}
+.infoBox:last-child {
+    margin-right: 0;
+}
+.MuiPaper-root {
+    background-color: #f5f6fa !important;
+}
+@media(max-width: 600px){
+    .infoBox {
+        flex-grow: 1;
+        width: 100%;
+        flex-basis: 100%;
+        padding: 12px;
+        margin: 0 20px;
+    }
+}
+.infoBox__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.infoBox__header > img{
+    width: 30px;
+    height: 100%;
+}
+.infobx__title {
+
+}
+.infobx__cases {
+
+}
+.infobx__total {
+
+}

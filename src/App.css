@@ -2,11 +2,43 @@
     margin: 0;
     box-sizing: border-box;
 }
+.app__body {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 50px 20px;
+}
+.app__left {
+    flex: 0.7;
+    padding: 0 10px;
+}
+.app__right {
+    flex: 0.3;
+}
 .app__header {
     display: flex;
     justify-content: space-around;
+    margin-bottom: 30px;
 }
 .app__dropdown{
-
+    width: 150px;
 }
-    
+.MuiSelect-select.MuiSelect-selec:focus {
+    outline: none
+}
+.app__stats{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 900px) {
+    .app__body {
+        flex-direction: column;
+    }
+    .app__left {
+        flex: 1;
+    }
+    .app__right {
+        flex: 1;
+    }
+}

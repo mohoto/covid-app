@@ -1,5 +1,6 @@
 import React from 'react'
 import './Banner.css'
+import Covid from '../../Covid.svg'
 
 export default function Banner() {
     return (
